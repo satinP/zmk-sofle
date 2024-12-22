@@ -6,6 +6,4 @@ The list of keycodes: https://zmk.dev/docs/keymaps/list-of-keycodes
 
 # Current key map
 
-# Sofle 键位图
-
 <img src="keymap-drawer/sofle.svg" >
