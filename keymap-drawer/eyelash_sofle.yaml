@@ -191,6 +191,6 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '&studio_unlock', type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - '&studio_unlock'
   - {t: '$$mdi:transfer$$', type: trans}
