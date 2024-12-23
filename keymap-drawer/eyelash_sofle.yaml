@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&studio_unlock'
   - {t: '$$mdi:transfer$$', type: trans}
-  home_row_mod:
+  adjust:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -255,10 +255,10 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - raise
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
 combos:
-- p: [56, 61]
-  k: {t: home_row_mod, h: toggle}
+- p: [56, 60]
+  k: {t: adjust, h: toggle}
