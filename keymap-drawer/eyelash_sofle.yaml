@@ -251,11 +251,11 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - lower
+  - {t: lower, type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - raise
+  - {t: raise, type: held}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
