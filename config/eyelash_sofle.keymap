@@ -89,12 +89,13 @@
 
         default {
             bindings = <
-&kp ESC     &kp N1        &kp N2        &kp N3           &kp N4         &kp N5       &kp UP_ARROW     &kp N6     &kp N7         &kp N8            &kp N9           &kp N0           &kp BACKSPACE
-&kp GRAVE   &kp Q         &kp W         &kp E            &kp R          &kp T        &kp DOWN_ARROW   &kp Y      &kp U          &kp I             &kp O            &kp P            &kp BSLH
-&kp TAB     &hml LCTRL A  &hml LGUI S   &hml LEFT_ALT D  &hml LSHIFT F  &kp G        &kp LEFT_ARROW   &kp H      &hmr RSHIFT J  &hmr RIGHT_ALT K  &hmr RGUI L      &hmr RCTRL SEMI  &kp APOS
-&kp LSHFT   &kp Z         &kp X         &kp C            &kp V          &kp B        &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA         &kp DOT          &kp FSLH         &kp ENTER
-&kp C_MUTE  &kp LCTRL     &kp LEFT_GUI  &kp LEFT_ALT     &mo 1          &kp SPACE    &kp ENTER        &kp SPACE  &mo 2          &kp ENTER             &kp RIGHT_SHIFT  &kp DELETE
+&kp ESC     &kp N1        &kp N2         &kp N3        &kp N4       &kp N5       &kp UP_ARROW     &kp N6     &kp N7       &kp N8       &kp N9           &kp N0           &kp BACKSPACE
+&kp GRAVE   &kp Q         &kp W          &kp E         &kp R        &kp T        &kp DOWN_ARROW   &kp Y      &kp U        &kp I        &kp O            &kp P            &kp BSLH
+&kp TAB     &hml LCTRL A  &hml LSHIFT S  &hml LGUI D   &hml LALT F  &kp G        &kp LEFT_ARROW   &kp H      &hmr RALT J  &hmr LGUI K  &hmr RSHIFT L    &hmr RCTRL SEMI  &kp APOS
+&kp LSHFT   &kp Z         &kp X          &kp C         &kp V        &kp B        &kp RIGHT_ARROW  &kp N      &kp M        &kp COMMA    &kp DOT          &kp FSLH         &kp ENTER
+&kp C_MUTE  &kp LCTRL     &kp LEFT_GUI   &kp LEFT_ALT  &mo 1        &kp SPACE    &kp ENTER        &kp SPACE  &mo 2        &kp ENTER    &kp RIGHT_SHIFT  &kp DELETE
             >;
+
             display-name = "default";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
