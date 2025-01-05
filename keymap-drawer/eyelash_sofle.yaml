@@ -91,7 +91,7 @@ layers:
   - END
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - '&RGB_SPD'
+  - RGB SPD
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
