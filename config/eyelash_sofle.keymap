@@ -75,6 +75,17 @@
         hold-trigger-on-release;
     };
 
+    hmmods: hmmods {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HMMODS";
+        bindings = <&kp>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        quick-tap-ms = <180>;
+        flavor = "tap-preferred";
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -89,11 +100,11 @@
 
         default {
             bindings = <
-&kp ESC     &kp N1        &kp N2         &kp N3        &kp N4       &kp N5       &kp UP_ARROW     &kp N6     &kp N7       &kp N8       &kp N9           &kp N0           &kp BACKSPACE
-&kp GRAVE   &kp Q         &kp W          &kp E         &kp R        &kp T        &kp DOWN_ARROW   &kp Y      &kp U        &kp I        &kp O            &kp P            &kp BSLH
-&kp TAB     &hml LCTRL A  &hml LSHIFT S  &hml LGUI D   &hml LALT F  &kp G        &kp LEFT_ARROW   &kp H      &hmr RALT J  &hmr LGUI K  &hmr RSHIFT L    &hmr RCTRL SEMI  &kp APOS
-&kp LSHFT   &kp Z         &kp X          &kp C         &kp V        &kp B        &kp RIGHT_ARROW  &kp N      &kp M        &kp COMMA    &kp DOT          &kp FSLH         &kp ENTER
-&kp C_MUTE  &kp LCTRL     &kp LEFT_GUI   &kp LEFT_ALT  &mo 1        &kp SPACE    &kp ENTER        &kp SPACE  &mo 2        &kp ENTER    &kp RIGHT_SHIFT  &kp DELETE
+&kp ESC     &kp N1           &kp N2            &kp N3          &kp N4          &kp N5       &kp UP_ARROW     &kp N6     &kp N7          &kp N8          &kp N9            &kp N0              &kp BACKSPACE
+&kp GRAVE   &kp Q            &kp W             &kp E           &kp R           &kp T        &kp DOWN_ARROW   &kp Y      &kp U           &kp I           &kp O             &kp P               &kp BSLH
+&kp TAB     &hmmods LCTRL A  &hmmods LSHIFT S  &hmmods LGUI D  &hmmods LALT F  &kp G        &kp LEFT_ARROW   &kp H      &hmmods RALT J  &hmmods LGUI K  &hmmods RSHIFT L  &hmmods RCTRL SEMI  &kp APOS
+&kp LSHFT   &kp Z            &kp X             &kp C           &kp V           &kp B        &kp RIGHT_ARROW  &kp N      &kp M           &kp COMMA       &kp DOT           &kp FSLH            &kp ENTER
+&kp C_MUTE  &kp LCTRL        &kp LEFT_GUI      &kp LEFT_ALT    &mo 1           &kp SPACE    &kp ENTER        &kp SPACE  &mo 2           &kp ENTER       &kp RIGHT_SHIFT   &kp DELETE
             >;
 
             display-name = "default";
