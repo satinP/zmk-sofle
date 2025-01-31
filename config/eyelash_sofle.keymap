@@ -176,11 +176,11 @@
         L2 {
             display-name = "2";
             bindings = <
-&trans  &trans    &trans         &trans     &trans     &trans              &trans  &trans             &trans     &trans     &trans            &trans             &trans
-&trans  &kp EXCL  &kp AT         &kp POUND  &kp DLLR   &kp PERCENT         &trans  &kp CARET          &kp AMPS   &kp STAR   &kp LPAR          &kp RPAR           &trans
-&trans  &kp PIPE  &kp BACKSLASH  &kp PLUS   &kp MINUS  &kp LEFT_BRACKET    &trans  &kp RIGHT_BRACKET  &kp UNDER  &kp EQUAL  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans
-&trans  &trans    &trans         &trans     &kp TILDE  &kp LEFT_BRACE      &trans  &kp RIGHT_BRACE    &kp GRAVE  &trans     &trans            &trans             &trans
-&trans  &trans    &trans         &trans     &trans     &trans              &trans  &trans             &trans     &trans     &trans            &trans
+&trans  &trans    &trans         &trans     &trans     &trans              &trans  &trans             &trans     &trans         &trans            &trans             &trans
+&trans  &kp EXCL  &kp AT         &kp POUND  &kp DLLR   &kp PERCENT         &trans  &kp CARET          &kp AMPS   &kp STAR       &kp LPAR          &kp RPAR           &trans
+&trans  &kp PIPE  &kp BACKSLASH  &kp PLUS   &kp MINUS  &kp LEFT_BRACKET    &trans  &kp RIGHT_BRACKET  &kp UNDER  &kp EQUAL      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans
+&trans  &trans    &trans         &trans     &kp TILDE  &kp LEFT_BRACE      &trans  &kp RIGHT_BRACE    &kp GRAVE  &kp LESS_THAN  &kp GREATER_THAN  &trans             &trans
+&trans  &trans    &trans         &trans     &trans     &trans              &trans  &trans             &trans     &trans         &trans            &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
