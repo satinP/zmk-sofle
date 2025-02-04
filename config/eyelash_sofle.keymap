@@ -176,10 +176,10 @@
         L2 {
             display-name = "2";
             bindings = <
-&trans  &trans    &trans         &trans     &trans        &trans          &trans  &trans          &trans        &trans            &trans             &trans     &trans
-&trans  &kp EXCL  &kp AT         &kp POUND  &kp DLLR      &kp PERCENT     &trans  &kp CARET       &kp AMPS      &kp STAR          &kp LPAR           &kp RPAR   &trans
-&trans  &kp PIPE  &kp BACKSLASH  &kp TILDE  &kp MINUS     &kp PLUS        &trans  &kp KP_EQUAL    &kp GRAVE     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp COLON  &trans
-&trans  &trans    &kp SLASH      &trans     &kp QUESTION  &kp KP_MINUS    &trans  &kp UNDERSCORE  &kp QUESTION  &kp LESS_THAN     &kp GREATER_THAN   &trans     &trans
+&trans  &trans    &trans         &trans     &trans        &trans          &trans  &trans          &trans        &trans            &trans             &trans        &trans
+&trans  &kp EXCL  &kp AT         &kp POUND  &kp DLLR      &kp PERCENT     &trans  &kp CARET       &kp AMPS      &kp STAR          &kp LPAR           &kp RPAR      &trans
+&trans  &kp PIPE  &kp BACKSLASH  &kp TILDE  &kp MINUS     &kp PLUS        &trans  &kp EQUAL       &kp GRAVE     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp COLON     &trans
+&trans  &trans    &kp SLASH      &trans     &kp QUESTION  &kp KP_MINUS    &trans  &kp UNDERSCORE  &kp QUESTION  &kp LESS_THAN     &kp GREATER_THAN   &kp QUESTION  &trans
 &trans  &trans    &trans         &trans     &trans        &trans          &trans  &trans          &trans        &trans            &trans             &trans
             >;
 
